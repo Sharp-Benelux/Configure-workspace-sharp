@@ -16,7 +16,7 @@ if (!$ProtocolHandler) {
 
 #onderstaande stuurt de scripting weg naar de ingelogde gebruikers met de juiste foto's, voor meer informatie over de documentatie en parameters van dit script zie https://github.com/Windos/BurntToast
 $scriptblock = {
-    $heroimage = New-BTImage -Source 'https://www.deopticien.biz/images/featured_news/pro.jpg' -HeroImage
+    $heroimage = New-BTImage -Source 'https://www.sharp.nl/sites/default/files/styles/328w/public/2021-10/Sharp_IT%20Services_CMYK_1000%20750.png' -HeroImage
     $Text1 = New-BTText -Content  "Uw computer wordt na 10 minuten opnieuw opgestart"
     $Text2 = New-BTText -Content "Sharp IT services heeft updates geïnstalleerd. U kunt hieronder kiezen voor nu herstarten of het uitstellen hiervan"
     $Button = New-BTButton -Content "Uitstellen" -snooze -id 'SnoozeTime'
